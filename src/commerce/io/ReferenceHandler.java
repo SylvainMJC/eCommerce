@@ -8,9 +8,14 @@ public class ReferenceHandler {
 
         Scanner s = new Scanner(System.in);
 
-        System.out.println("Référence item à vendre :");
-        return s.nextLine();
+        MessageHandler.execute(MessageEnum.SPECIFY_REFERENCE);
+        String res = s.nextLine();
 
+        if(res != null){
+            return res;
+        }else{
+            MessageHandler.execute(MessageEnum.INVALID_ENTRY);
+        }
 
 
     }

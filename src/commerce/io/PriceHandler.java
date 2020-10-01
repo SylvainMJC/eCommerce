@@ -4,16 +4,36 @@ import java.util.Scanner;
 
 public class PriceHandler {
 
-    public static int execute(){
+    public static float execute(){
 
         Scanner s = new Scanner(System.in);
 
-        System.out.println("Quantité à vendre :");
-        int input = s.nextInt();
+        MessageHandler.execute(MessageEnum.SPECIFY_PRICE);
+
+        float input = 0;
+
+        do {
+
+            try {
+
+                input = s.nextFloat();
+
+                if(input < 1){
+
+                    MessageHandler.execute(MessageEnum.INVALID_PRICE);
+
+                }
+            }
+            catch(Exception e){
+                MessageHandler.execute(MessageEnum.INVALID_ENTRY);
+                s.nextLine();
+            }
+
+
+
+        }while(input < 1);
 
         return input;
-
-
 
     }
 

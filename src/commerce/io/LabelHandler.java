@@ -4,12 +4,12 @@ import java.util.Scanner;
 
 public class LabelHandler {
 
-    public static int execute(){
+    public static String execute(){
 
         Scanner s = new Scanner(System.in);
 
-        System.out.println("Quantité à vendre :");
-        int input = s.nextInt();
+        System.out.println("Label :");
+        String input = s.nextLine();
 
         return input;
 

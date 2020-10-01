@@ -89,11 +89,7 @@ public class Magasin {
 
     }
 
-    public void display(){
-        for (Item i : this.stock.keySet()) {
-            System.out.println(i.displayItem() + ", Quantité : " + this.stock.get(i));
-        }
-        System.out.println(this.getNom() + " a un capital de " + this.getCapital() + " €");
-    }
+
+
 
 }
