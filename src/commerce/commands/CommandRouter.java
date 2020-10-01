@@ -1,10 +1,7 @@
-package commerce;
+package commerce.commands;
 
 
-import commerce.command.CommandAddItem;
-import commerce.command.CommandDisplayMag;
-import commerce.command.CommandEnum;
-import commerce.command.CommandSellItem;
+import commerce.domain.Magasin;
 import commerce.io.MessageEnum;
 import commerce.io.MessageHandler;
 

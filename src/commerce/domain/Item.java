@@ -1,4 +1,4 @@
-package commerce;
+package commerce.domain;
 
 public class Item {
 

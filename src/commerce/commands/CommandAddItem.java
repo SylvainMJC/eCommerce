@@ -1,7 +1,7 @@
-package commerce.command;
+package commerce.commands;
 
-import commerce.Item;
-import commerce.Magasin;
+import commerce.domain.Item;
+import commerce.domain.Magasin;
 import commerce.io.*;
 
 import java.util.Scanner;

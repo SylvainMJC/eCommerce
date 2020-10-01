@@ -1,7 +1,7 @@
-package commerce.command;
+package commerce.commands;
 
 
-import commerce.Magasin;
+import commerce.domain.Magasin;
 import commerce.io.MessageEnum;
 import commerce.io.MessageHandler;
 import commerce.io.QuantityHandler;

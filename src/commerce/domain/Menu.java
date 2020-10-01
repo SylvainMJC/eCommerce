@@ -1,6 +1,8 @@
-package commerce;
+package commerce.domain;
 
-import commerce.command.CommandEnum;
+import commerce.commands.CommandRouter;
+import commerce.io.MenuHandler;
+import commerce.commands.CommandEnum;
 
 public class Menu {
 

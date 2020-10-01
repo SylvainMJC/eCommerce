@@ -1,7 +1,7 @@
-package commerce;
+package commerce.io;
 
 
-import commerce.command.CommandEnum;
+import commerce.commands.CommandEnum;
 
 import java.util.Scanner;
 

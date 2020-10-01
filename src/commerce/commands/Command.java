@@ -1,4 +1,4 @@
-package commerce.command;
+package commerce.commands;
 
 public interface Command {
 

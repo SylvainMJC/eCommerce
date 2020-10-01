@@ -1,7 +1,8 @@
 package commerce;
 
 
-import java.util.Scanner;
+import commerce.domain.Magasin;
+import commerce.domain.Menu;
 
 public class Main {
 
