@@ -12,7 +12,11 @@ public enum MessageEnum {
     ITEM_ADD_FAILURE("Item pas ajouté."),
     SPECIFY_PRICE("Spécifier le prix : "),
     INVALID_PRICE("Le prix doit être supérieur à 0"),
-    SPECIFY_REFERENCE("Référence item à vendre :");
+    SPECIFY_REFERENCE("Référence item à vendre :"),
+    SPECIFY_LABEL("Spécifier le label : "),
+    INVALID_REFERENCE("référence invalide"),
+    INVALID_LABEL("Label invalide");
+
     public final String msg;
 
 

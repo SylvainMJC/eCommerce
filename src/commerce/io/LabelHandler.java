@@ -8,8 +8,23 @@ public class LabelHandler {
 
         Scanner s = new Scanner(System.in);
 
-        System.out.println("Label :");
-        String input = s.nextLine();
+        MessageHandler.execute(MessageEnum.SPECIFY_LABEL);
+        //String input = s.nextLine();
+
+        String input = null;
+        do {
+
+            try {
+
+                input = s.nextLine();
+
+            }
+            catch(Exception e){
+                MessageHandler.execute(MessageEnum.INVALID_LABEL);
+                s.nextLine();
+            }
+
+        }while(input.isEmpty());
 
         return input;
 
